@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+/*jshint esversion: 6 */
+
 const iataCode = context
   .getVariable("proxy.pathsuffix")
   .split("/")[2]
