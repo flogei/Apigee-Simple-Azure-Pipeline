@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+/*jshint esversion: 6 */
+
 const allAirports = JSON.parse(context.getVariable("response.content"));
 
 var countryParam = context.getVariable("request.queryparam.country");
